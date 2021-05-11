@@ -29,4 +29,41 @@
 
 
 
-/// problem
+/// problem Even Fibonacci numbers
+
+//func fibonacci(_ i: Int) -> Int {
+//if i <= 2 { return 1 }
+//else { return fibonacci(i - 1) + fibonacci(i - 2)}
+//}
+////fibonacci(6)
+//var s:Int = 1
+//var i:Int = 2
+//var f:Int = 1
+//while (f<40000){
+//    f = fibonacci(i)
+//    s += f
+//    i += 1
+//}
+//print(s)
+// 1 1 2 3 5 8 13 21
+
+
+
+
+///problem Largest palindrome product
+//var pali:Int = 0
+//func palindrom() -> Int{
+//    for i in 100...1000{
+//        for j in 100...1000{
+//            let p = i * j
+//            if (String(p) == String(String(p).reversed())){
+//                if p>pali {
+//                    pali = p
+//                }
+//            }
+//        }
+//    }
+//    return pali
+//}
+//print(palindrom())
+
